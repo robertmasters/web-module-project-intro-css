@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width: 100%;
+    color:black;
+    /* display: inline-block; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: white;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+nav div{
+    text-align: center;
+    border: 0px ;
+    margin: 15px;
+    display: inline-block;
+    width: 7%;
+    border-radius: 10px;
+    padding: 9px;
+    line-height: 13px;
+}
+nav #plan{
+    background-color: red;
+}
+nav #learn{
+    background-color: orange;
+}
+nav #involved{
+    background-color: blue;
+}
+
+img{
+    height: 30%;
+    width: 30%;
+}
+
+header {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+}
