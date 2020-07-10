@@ -48,23 +48,43 @@ h1{
 }
 
 div.container{
-    display: inline-block;
-    width: 100%;
+    /* display: inline-block; */
     
 }
 
 div.container-bottom{
     display:inline-block;
-    width: 100%;
+    width: 40%;
+    position: relative;
+    bottom: 100px;
+    left:100px
     /* float:right; */
 }
+div.container-bottom h1.title{
+    margin:0px;
+}
+div.container-bottom p.one{
+    margin:50px;
+}
+div.container-bottom p.two{
+    margin:0px;
+}
 
+
+.topimage{
+    width: 60%;
+    top: 150px;
+    right:150px;
+    position: relative;
+    
+}
 .topimage img{
     /* float:left; */
     border-radius: 100%;
     display: inline-block; 
-    height: 20%;
-    width: 20%;  
+    /* height: 40%; */
+    width: 40%;  
+    
 }
 
 
@@ -111,9 +131,13 @@ section.plan p{
     text-align: center;
 }
 
-footer img{
+footer .image{
     background-image:url("assets/footer_img.jpg");
-    height: 200px;
+    /* height: 100px; */
+    /* background-size: 10px 10px; */
+    height: 300px;
     width: 100%;
+    background-repeat: no-repeat;
 
+    
 }
